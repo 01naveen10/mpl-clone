@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #3a3a3a;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    padding: 15px 160px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.menu-toggle-icon {
+    margin-top: 10px;
+}
+
+.menu-toggle-icon div {
+    background-color: black;
+    margin: 3px 0;
+    width: 20px;
+    height: 2.5px;
+}
+
+.about {
+    margin-top: 150px;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.about h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.about p {
+    max-width: 65%;
+    margin: 25px auto;
+    line-height: 2;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.1;
+}
+
+.know-us {
+    margin: 200px 0;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.know-us h2 {
+    font-size: 38px;
+    margin: 15px auto;
+}
+
+.know-us ul {
+    color: red;
+    display: flex;
+    max-width: 60%;
+    margin: 10px auto;
+}
+
+.know-us li {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.disclaimer {
+    max-width: 80%;
+    margin: 15px auto;
+    margin-top: 50px;
+    color: #a7a7a7;
+    font-size: 12px;
+}
+
+.disclaimer h3 {
+    font-weight: 400;
+}
+
+.disclaimer p {
+    margin-bottom: 10px;
+}
+
+.disclaimer a {
+    margin: 20px auto;
+    color: red;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 15px;
+    background-color: #4a4a4a;
+    color: white;
+}
